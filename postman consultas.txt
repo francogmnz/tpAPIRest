@@ -1,0 +1,34 @@
+para ingresar en postman las consultas:
+http://Localhost:9000/api/v1/personas
+http://Localhost:9000/api/v1/domicilios
+http://Localhost:9000/api/v1/autores
+http://Localhost:9000/api/v1/localidades
+{
+    "nombre" : "franco",
+    "apellido" : "Gimenez",
+    "dni" : 12344153,
+    "domicilio" : {
+	"calle" : "clorinda"
+	"numero" : 825,
+	"localidad": {
+	"id": 1,
+	"denominacion": "godoy cruz" }
+
+
+},
+  "Libros": [
+	{
+    "fecha": 2023,
+    "genero" : "terror",
+    "paginas" : 500,
+    "titulo" : "yo el mejor"
+	"autores":[
+	"id": 3,
+    "nombre" : "Raul",
+    "apellido" : "Gimenez",
+    "biografia" : "Nacido en mendoza etcefopjdowqpojvopejqvc jppomkpomopmpomnponqojpoqjfjvpwjw"
+]
+}
+]
+
+}
