@@ -1,0 +1,317 @@
+{
+	"info": {
+		"_postman_id": "bbea1f4d-52f5-4983-83a4-e3ae3658f8d5",
+		"name": "Apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30290798"
+	},
+	"item": [
+		{
+			"name": "Persona",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost9000/api/v1/personas",
+							"protocol": "http",
+							"host": [
+								"localhost9000"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\" : \"franco\"\r\n    \"apellido\" : \"Gimenez\"\r\n    \"dni\" : 123153\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://Localhost:9000/api/v1/personas",
+							"protocol": "http",
+							"host": [
+								"Localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Autor",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost9000/api/v1/personas",
+							"protocol": "http",
+							"host": [
+								"localhost9000"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Libro",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost9000/api/v1/personas",
+							"protocol": "http",
+							"host": [
+								"localhost9000"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Localidad",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost9000/api/v1/personas",
+							"protocol": "http",
+							"host": [
+								"localhost9000"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Domicilio",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost9000/api/v1/personas",
+							"protocol": "http",
+							"host": [
+								"localhost9000"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
