@@ -40,6 +40,6 @@ tasks.named('test') {
 }
 jar {
 	manifest {
-		attributes 'TpBackApplication': 'com.example.demo.TpBackApplication'
+		attributes 'Main-Class': 'com.example.demo.TpBackApplication'
 	}
 }
